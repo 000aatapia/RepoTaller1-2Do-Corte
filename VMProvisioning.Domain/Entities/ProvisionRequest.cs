@@ -7,14 +7,11 @@ using VMProvisioning.Domain.Enum;
 
 namespace VMProvisioning.Domain.Entities
 {
-    public  record ProvisionRequest
-    {
-        public  record ProvisionerRequest
+        public  record ProvisionRequest
             (
             ProviderType Provider,
             string Name,
             IDictionary<string, object>? Parameters,
             IDictionary<string, string>? SensitiveParameters
             );
-    }
 }

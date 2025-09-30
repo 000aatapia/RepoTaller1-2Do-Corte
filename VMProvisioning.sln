@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMProvisioning.Domain", "VMProvisioning.Domain\VMProvisioning.Domain.csproj", "{AC23A1FF-DDEE-413A-9376-BA2E06C78B4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMProvisioning.Application", "VMProvisioning.Application\VMProvisioning.Application.csproj", "{03C9D384-FBBA-4829-9ABA-FAC131C9CA9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{AC23A1FF-DDEE-413A-9376-BA2E06C78B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC23A1FF-DDEE-413A-9376-BA2E06C78B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC23A1FF-DDEE-413A-9376-BA2E06C78B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C9D384-FBBA-4829-9ABA-FAC131C9CA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C9D384-FBBA-4829-9ABA-FAC131C9CA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C9D384-FBBA-4829-9ABA-FAC131C9CA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C9D384-FBBA-4829-9ABA-FAC131C9CA9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F635AFC-1773-4C8E-BF23-9F57C18E1283}
 	EndGlobalSection
 EndGlobal

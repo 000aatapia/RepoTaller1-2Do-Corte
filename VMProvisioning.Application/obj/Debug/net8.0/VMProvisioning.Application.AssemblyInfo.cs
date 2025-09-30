@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VMProvisioning.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("VMProvisioning.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63c579b00a192aedcaeffb6d3c4410ea486175eb")]
-[assembly: System.Reflection.AssemblyProductAttribute("VMProvisioning.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VMProvisioning.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("VMProvisioning.Application")]
+[assembly: System.Reflection.AssemblyTitleAttribute("VMProvisioning.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
